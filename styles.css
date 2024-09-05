@@ -1,0 +1,34 @@
+/* Selectores. Pueden ser etiquetas, ids, clases, pseudoetiquetas
+selector o un conjunto {
+    atributo: valor;
+    atributo: valor;
+    atributo: valor;
+} */
+
+body {
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header nav ul {
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+header nav ul li {
+    border: 1px solid blue;
+    display: inline-block;
+    background-color:cornflowerblue;
+    color:aliceblue;
+    /* margin-inline: 0 5%; */
+    /* padding: 12px 3px; */
+    margin-right: 20px;
+    padding: 10px 26px;
+}
+
+header nav ul li:hover {
+    background-color: white;
+    color: blue;
+}
