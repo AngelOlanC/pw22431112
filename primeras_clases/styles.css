@@ -1,0 +1,59 @@
+/* Selectores. Pueden ser etiquetas, ids, clases, pseudoetiquetas
+selector o un conjunto {
+    atributo: valor;
+    atributo: valor;
+    atributo: valor;
+} */
+
+body {
+    border: 1px solid red;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header {
+    border: 1px solid magenta;
+}
+
+header nav ul {
+    border: 1px solid yellow;
+    text-align: center;
+}
+
+header img {
+    border-radius: 500px;
+    border: 1px solid black;
+    width: 100px;
+    margin: 0px 45%;
+}
+
+header nav ul li {
+    border: 1px solid blue;
+    border-radius: 5px;
+    box-shadow: 4px 4px 15px black;
+    display: inline-block;
+    background-color:cornflowerblue;
+    color:aliceblue;
+    /* margin-inline: 0 5%; */
+    /* padding: 12px 3px; */
+    margin-right: 20px;
+    padding: 10px 26px;
+}
+
+header nav ul li:hover {
+    background-color: white;
+    color: blue;
+    box-shadow: 0px 0px 0px white;
+}
+
+main section article{
+    border: 1px solid red;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 32.8%;
+}
+
+footer {
+    border: 1px solid blue;
+}
