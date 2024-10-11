@@ -1,0 +1,95 @@
+html {
+  --color-azul: #dadbf1;
+}
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 1024px;
+  margin: 0px auto;
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+header article {
+  padding: 10px 50px;
+}
+header article:nth-child(1) img {
+  width: 40px;
+  vertical-align: middle;
+}
+header article:nth-child(2) {
+  text-align: right;
+}
+header article:nth-child(2) input {
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  padding: 5px 10px;
+} 
+header article:nth-child(2) input[value="Submit a request"] {
+  background-color: #161b1c;
+  border: 1px solid gray;
+}
+header article:nth-child(2) input[value="Sign in"] {
+  background-color: #4b5ed7;
+  border: 0px;
+  margin-left:15px;
+}
+nav {
+  padding: 70px 0px;
+  background-color: var(--color-azul);
+  text-align: center;
+}
+nav input {
+  width: 500px;
+  height: 50px;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#principal {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 100px 30px 100px;
+}
+#principal > article {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+}
+#principal > article img {
+  width: 80%;
+  padding-top: 20px;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 250px;
+}
+footer article {
+  padding: 20px;
+}
+footer article:nth-child(5) {
+  padding-top: 50%;
+}
+footer img {
+  width: 30px;
+}
+.learn-more {
+  color: #3741ff;
+}
+.letra-blanca {
+  color: white;
+}
+.letra-negrita {
+  font-weight: 600;
+}
+.letra-grande {
+  font-size: 50px;
+}
+.letra-chica {
+  font-size: 12px;
+}
+.fondo-negro {
+  background-color: black;
+}
